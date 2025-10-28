@@ -1,0 +1,64 @@
+Combined Log Questions (Both Windchill + HTTP)
+"Show me recent application errors and their corresponding HTTP requests from the same time period"
+
+Tests correlation between app errors and HTTP traffic
+
+"Are there any slow HTTP requests that coincide with application error spikes?"
+
+Tests performance correlation analysis
+
+"What's the relationship between high response times and application module failures?"
+
+Tests cross-log pattern recognition
+
+🔵 Windchill Log Questions
+"Show me the most frequent error messages in the application logs from the last 24 hours"
+
+Tests error frequency analysis
+
+"Which Windchill modules are generating the most warnings and errors?"
+
+Tests module-level analysis
+
+"Analyze the sequence of events leading up to a critical application failure"
+
+Tests log sequence and causality analysis
+
+🟢 HTTP Log Questions
+"What are the top 5 slowest API endpoints based on response time?"
+
+Tests performance metric extraction
+
+"Show me HTTP requests with 5xx status codes and their response times"
+
+Tests error status code filtering
+
+"Which client IPs are making the most requests to the Windchill system?"
+
+Tests client behavior analysis
+
+📊 Advanced Analysis Questions
+"Provide a summary of system health including error rates, response times, and performance trends"
+
+Tests comprehensive system analysis capabilities
+
+🎯 Bonus Technical Questions:
+"Find any database connection timeouts in the logs and their impact on HTTP responses"
+
+Tests technical correlation analysis
+
+"Are there any patterns of increased error rates during specific time windows?"
+
+Tests temporal pattern recognition
+
+"What's the average response time for successful vs failed API calls?"
+
+Tests comparative analysis
+
+"Show me any authentication-related errors in both application and HTTP logs"
+
+Tests security issue correlation
+
+"Analyze the performance impact of specific Windchill modules on HTTP endpoint response times"
+
+Tests deep performance correlation
